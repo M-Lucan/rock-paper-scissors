@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>ROCK, PAPER, SCISSORS!</h1>
+<div class="choices">
+    <div>
+        <h2 class="robotName">Robot</h2>
+        <img id="robot-img" src="./robot.png" alt="Robot" class="robot">
+    </div>
+    <div class="vs"> VS </div>
+    <div class="choice-images">
+        <h2 class="optionText">Choose your hand sign: </h2>
+        <img src="./rock.png" alt="Rock">
+        <img src="./paper.png" alt="Paper">
+        <img src="./scissors.png" alt="Scissors">
+    </div>
+</div>
+<div id="result" class="result">
+</div>
+<div class="score">
+    <h2>Score:</h2>
+    <p>Wins: <span id="wins"> 0 </span></p>
+    <p>Losses: <span id="losses"> 0 </span></p>
+    <p>Ties: <span id="ties"> 0 </span></p>
+</div>
+<div class="wrapText">
+    <div class="ruleText">
+        The Basic Rules of RPS: <br>
+        Players chooses hand signals representing rock, paper, or scissors by these three rules:<br>
+        1. Rock wins against scissors. <br>  
+        2. Scissors win against paper. <br>
+        3. Paper wins against rock.
+    </div>
+<div class="dykText">
+        Did you know? <br>
+        Many historians believe that the earliest form of the game <br>
+        known as "Rock, Paper, Scissors" was played in China
+        during the Han Dynasty (206 BC – 220 AD). <br>
+        The game was used to settle disputes in matters of diplomacy and war.
+    </div>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "MuseoModerno", sans-serif;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.choices{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-images img{
+    width: 120px;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.robotName{
+    margin-left: 100px;
+}
+
+.optionText{
+    margin-bottom: 100px;
+}
+
+.robot{
+    padding-left: 100px;
+    width: 250px;
+    height: 300px;
+}
+.score{
+    margin-top: 10px;
+}
+
+.vs{
+    font-size: 30pt;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.result{
+    margin-top: 30px;
+    font-size: 18pt;
+}
+
+.ruleText{
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 50px;
+}
+
+.dykText{
+    margin-right: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 50px;
+  
+}
+
+.wrapText{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
