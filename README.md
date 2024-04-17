@@ -5,7 +5,6 @@ This project is an implementation of the classic game "Rock, Paper, Scissors" us
 
 The interface presents the title "ROCK, PAPER, SCISSORS!" prominently, inviting users to engage with the game.
 Users are presented with images representing their choices (rock, paper, or scissors) and an image representing the computer's choice (robot).
-Interactive Gameplay:
 
 Users can click on the images to select their choice of hand sign (rock, paper, or scissors).
 After the user makes a selection, the computer randomly chooses its hand sign.
